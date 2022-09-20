@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+	*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+ body{
+	 /* background-color:#ffffff; */
+	 background-image:url("https://images.unsplash.com/photo-1612832021455-245704c6755a? ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1960&q=80");
+	 background-size:cover;
+ 	background-position:center;
+	width:100%;
+	height:100vh;
+	margin-top:0;
+	
+}
+
+.nav-links{
+	background-color:#33ccad;	
+    height:2em;
+ }
+ul{
+	display:flex;
+	justify-content:flex-start;
+	
+}
+li{
+	list-style:none;
+	padding:2px;
+}
+li a{
+	
+	color:white;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:20px;
+	
+}
+.link{
+	
+	padding-bottom:2px;
+	margin:10px;
+}
+
+
+.brand{
+	color:black;
+	font-size:20px;
+	padding:5px;
+	margin-left:10px;
+	font-family:'Open Sans', sans-serif;
+}
+
+/* home page */
+
+.content{
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	padding-top:200px;
+	
+}
+.heading{
+	font-family:'Oswald', sans-serif;
+	font-weight:30px;
+	color:white;
+	font-size:80px;
+}
+.main-content{
+	font-family:'Benne', serif;
+	font-size:30px;
+	color:white;
+}
+.submit{
+	padding:7px 8px;
+	color:white;
+	background-color:#33ccad;
+	font-family:'Benne', serif;
+	font-size:20px;
+	border:none;
+}
+.submit:hover{
+	background-color:#2d80d2;
+}
+
+/* customerlist */
+.view-header{
+	text-align:center;
+	padding:10px;
+	margin:0;
+	background-color:#ffffff;
+}
+table{
+	margin:100;
+	align-content:center;
+	align-items:center;
+	width:100%;
+	background-color:#ffffff;
+	
+}
+.header1 th{
+	background-color:#75a3a3;
+	font-family:'Work Sans', sans-serif;
+	padding:20px;
+	text-align:center;
+}
+.header2 td{
+	padding:20px;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+}
+.select-btn{
+	padding:10px;
+	background-color:#0099ff;
+	border-radius:5px;
+	border:none;
+}
+.select-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.select-btn:hover {
+    background-color: #F2AF29;
+}
+
+/* transfer */
+.transfer-header{
+	padding:5px;
+	text-align:center;
+	margin:0;
+	background-color:#ffffff;
+   font-family:'Work Sans', sans-serif;
+	font-size:20px;
+}
+.transfer-btn{
+	padding:10px;
+	background-color:#1ac6ff;
+	border:none;
+}
+.transfer-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+/* form */
+.box-container{
+	background-color:#ffffff;
+	margin-left:400px;
+	margin-right:500px;
+	margin-top:200px;
+	padding:25px;
+	display:block;
+}
+.form-body1{
+	font-size:15px;
+	font-family:'Noto Serif', serif;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.transfer1 {
+	margin-top:7px;
+	color:#ff4dff;
+	font-weight:bold;
+}
+.form{
+	margin-top:5px;
+	text-align:center;
+	padding:2px;
+}
+.form label{
+	font-size:17px;
+	font-family:'Noto Serif', serif;
+}
+.form input{
+	padding:3px;
+	margin:5px;
+	font-size:20px;
+}
+.transfer2-btn{
+	 margin:0;
+	align-items:center;
+    text-transform: uppercase;
+    padding : 0.2rem;
+    background-color: #d7263d;
+    color: whitesmoke;
+}
+.transfer2-btn:hover{
+	background-color:#39ac73;
+}
+/* history */
+.history-header{
+	background-color:#ffffff;
+	font-size:15px;
+	margin:0;
+	padding:7px;
+	text-align:center;
+}
+
+
+
+

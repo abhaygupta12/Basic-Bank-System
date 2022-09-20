@@ -1,0 +1,19 @@
+{
+  "name": "banksystem",
+  "version": "1.0.0",
+  "description": "The Sparks Foundation Internship Project: Basic Banking System A Web Application used to transfer money between multiple users (Project contains 10 dummy users). A dummy user can also be created.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shriyanshi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {}
+}
